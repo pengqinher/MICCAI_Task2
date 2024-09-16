@@ -1,0 +1,33 @@
+torch==2.0.1
+torchvision==0.15.2
+einops
+opencv-python
+timm==0.6.13
+tqdm
+torchprofile
+monai
+scikit-image
+matplotlib
+torchpack
+# git+https://github.com/zhijian-liu/torchpack.git@3a5a9f7ac665444e1eb45942ee3f8fc7ffbd84e5
+transformers
+onnx
+onnxsim
+onnxruntime
+gdown
+nibabel
+torchmetrics
+# TinyNeuralNetwork
+# git+https://github.com/alibaba/TinyNeuralNetwork.git
+segment-anything
+# git+https://github.com/facebookresearch/segment-anything.git
+
+pycocotools
+lvis
+
+# demo-specific packages
+gradio
+gradio-clickable-arrow-dropdown
+gradio-box-promptable-image
+gradio-point-promptable-image
+gradio-sbmp-promptable-image
