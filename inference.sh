@@ -1,2 +1,2 @@
 cd MICCAI_code
-python segmentation_test.py --batch_size 8 --testing_data_path ~/E2MIP_B/E2MIP_LIDCI-IDRI_data_4/testing_data_segmentation  --testing_data_solution_path ~/E2MIP_B/E2MIP_LIDCI-IDRI_data_4/testing_data_solution_segmentation    --model_path  .exp/L1_240916_seg_2/checkpoint/model_best.pt --test_pred_path ../data/my_test_pred/
+python segmentation_test.py --testing_data_path /mnt/query_data   --model_path  /mnt/training_results/model_best.pt --test_pred_path /mnt/predicted_data
